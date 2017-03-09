@@ -1,19 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
+	<meta charset="utf-8">
 	<title>game.js</title>
-<script src="https://code.javascript.com/js"></script> 
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
-	<script type="text/javascript">
+<div id="container">
+	<img src="/assets/images/background_img_copy.jpg" alt="">
+	<div class="wrapper"><h1>
+		<button class="jumbotron"><strong>
+		Crystals Collector!</strong></button></h1>
+		</div>
+			<div class="jumbotron">
+				<p>You will be given a random number at the start of the game.</p>
+				<br>
+
+				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+				<br>
+
+				<p>You win the game by matching your total score to random number, you losenthe game if your total score goes above the random number.</p>
+				<br>
+
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<br>
+
+				<p>Each time when the game starts, the game will change the values of each crystal</p>
+				<br>
+			</div>
+	<button class="jumbotron"><h1 class="text-left">39</h1></button>
+	 <button class="random-button" class="btn btn-primary"></button>
+<button class="jumbotron">
+    <h4 class="text-center">Wins 0</h4>
+    <h4 class="text-center">Losses 0</h4>
+
+    </button>
+   
+    
+  <div class="text-center"><h1><span class="glyphicon glyphicon-"></span></h1></button></div>		
+	<div id="buttons">
+		
+			<button class="jumbotron">
+			<img src="assets/image/blue copy.jpg" alt="png.61px.63px"></button>
+			<button class="jumbotron"><img src="javascript/image/green copy.jpg" alt="png.51px.73px"></button>
+			<button class="jumbotron"><img src="javascript/image/red copy.jpg" alt="png.60px.89px"></button>
+			<button class="jumbotron"><img src="javascript/image/yellow copy.jpg" alt="png.61px.69px"></button>
+		</div>
+		<button class="jumbotron">Your total score is</button>
+	</div>
+   
+    
+    	
+
+    </div> 
+      <button id="random-button" class="btn btn-primary"></button> 
+<button class="jumbotron">
+    <h1 class="text-center">0</h1></button>
+   
+    
+  <div class="text-center"><h1><span class="glyphicon glyphicon-"></span></h1></button>   
+  </div>     
+</div>
+</div>  
+ <script type="text/javascript"> 
+$(document).ready(function(){});
+
+var wins = function(){
+
+}
+var losses = function(){
+
+}
+var hexagon = function(){
+	var hexagon = Math.floor(Math.random()*100+1)
+}
+var dimond = function(){
+	var wins = Math.floor(Math.random()*100+1)
+
+}
+var yellow = function(){
+	var wins = Math.floor(Math.random()*100+1)
+
+}
+var square = function(){
+	var wins = Math.floor(Math.random()*100+1)
+
+}
+
+var theNumber = Math.floor(Math.random()*100+1);
+
+ function checkguesses(){
+ 	var myNumber = guess
+ 		alert("you clicked")
+ var wins = 
+
+ 
+
+ function startGame(){
+ 	var 
+
+
+ }
 
 
 
-
-
-
-
-	</script>
+</script>
 
 </body>
 </html>
